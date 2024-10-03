@@ -3,7 +3,7 @@ package Exerc41;
 public abstract class ContaBancaria {
 
     private String titular;
-    private String saldo;
+    private double saldo = 3000.00;
 
-    public abstract void sacar();
+    public abstract void sacar(double saque);
 }
